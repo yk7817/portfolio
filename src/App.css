@@ -1,0 +1,30 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+img{
+  max-width: 100%;
+  vertical-align: bottom;
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+.App{
+  background-color: #25283D;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+.container{
+  position: relative;
+  height: 100vh;
+  z-index: 0;
+  padding-top: 115px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}

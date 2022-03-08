@@ -1,0 +1,126 @@
+.skill_wrap{
+    width: 100vw;
+    height: 100vh;
+    padding: 60px 20px 0 20px;
+}
+.skill_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill_image{
+    width: 130px;
+    margin-right: 50px;
+}
+.skill_bar{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px 2px rgb(147 147 147);
+}
+.skill_bar::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -100%;
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+}
+.html.skill_bar::before{
+    background: linear-gradient(90deg, rgba(255,230,101,1) 0%, rgba(255,154,0,1) 52%, rgba(255,149,0,1) 100%);
+    animation-name: html;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes html {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: -10%;
+    }
+}
+.css.skill_bar::before{
+    background: linear-gradient(90deg, rgba(126,239,255,1) 0%, rgba(118,217,255,1) 50%, rgba(25,172,255,1) 100%);
+    animation-name: css;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes css {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: -20%;
+    }
+}
+.js.skill_bar::before{
+    background: linear-gradient(90deg, rgba(255,254,126,1) 0%, rgba(255,253,93,1) 50%, rgba(246,235,0,1) 100%);    animation-name: js;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes js {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: -60%;
+    }
+}
+.react.skill_bar::before{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(118,255,217,1) 50%, rgba(72,255,204,1) 100%);
+    animation-name: react;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes react {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: -70%;
+    }
+}
+.wp.skill_bar::before{
+    background: linear-gradient(90deg, rgba(160,215,255,1) 0%, rgba(91,146,185,1) 50%, rgba(0,100,173,1) 100%);
+    animation-name: wp;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes wp {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: -50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skill_wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 375px){
+    .skill_wrap{
+        display: block;
+        padding-top: 30px;
+    }
+    .skill_image{
+        margin-right: 20px;
+    }
+}

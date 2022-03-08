@@ -1,0 +1,19 @@
+.top-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.top-page .inner{
+    padding: 0 20px;
+}
+.top-page .inner h2{
+    color: #fff;
+    text-align: center;
+    font-size: 4.4rem;
+}
+@media screen and (max-width: 640px){
+    .top-page .inner h2{
+        font-size: 2.4rem;
+    }
+}

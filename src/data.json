@@ -1,0 +1,57 @@
+[
+    {
+        "workTitle": "ポートフォリオ１",
+        "workText": "初めてポートフォリオを作成した際のサイトになります",
+        "workLink": "http://yk-portfolio.pigboat.jp/portfolio/index.html",
+        "workImage": "images/Work/portfolio_first.png"
+    },
+    {
+        "workTitle": "ポートフォリオ２",
+        "workText": "勤務先でコーディングの勉強の為に作成したサイトです",
+        "workLink": "https://gipyklion.web.fc2.com/top43/top43_cp.html",
+        "workImage": "images/Work/portfolio_second.png"
+    },
+    {
+        "workTitle": "ポートフォリオ３",
+        "workText": "勤務先でコーディングの勉強の為に作成したサイトです",
+        "workLink": "https://gipyklion.web.fc2.com/top44/top44_cp.html",
+        "workImage": "images/Work/portfolio_three.png"
+    },
+    {
+        "workTitle": "ポートフォリオ４",
+        "workText": "架空の美容室サイトを作成しました",
+        "workLink": "http://yk-portfolio.pigboat.jp/project-1/html/index.html",
+        "workImage": "images/Work/portfolio_four.png"
+    },
+    {
+        "workTitle": "ポートフォリオ５",
+        "workText": "高鍋町にあります介護施設のサイトをWordpressでコーディングしました",
+        "workLink": "https://growup.main.jp/yamanokuchi3/",
+        "workImage": "images/Work/portfolio_five.png"
+    },
+    {
+        "workTitle": "ポートフォリオ６",
+        "workText": "株式会社湯ライフ様のサイトをWordpressでコーディングしました",
+        "workLink": "https://growup.main.jp/yamanokuchi4/",
+        "workImage": "images/Work/portfolio_six.png"
+    },
+    {
+        "workTitle": "ポートフォリオ７",
+        "workText": "タクミジム様のサイトをWordpressでコーディングしました",
+        "workLink": "https://www.takumi-gym.com/",
+        "workImage": "images/Work/portfolio_seven.png"
+    },
+    {
+        "workTitle": "ポートフォリオ８",
+        "workText": "宮崎大学 医学部様のサイトをWordpressでコーディング担当しました",
+        "workLink": "http://www.med.miyazaki-u.ac.jp/home/psychiatry/",
+        "workImage": "images/Work/portfolio_eight.png"
+    },
+    {
+        "workTitle": "ポートフォリオ９",
+        "workText": "車の部品を販売してます、神宮部品商会様のホームぺージのコーディングを担当しました",
+        "workLink": "https://www.jingu-parts.com/",
+        "workImage": "images/Work/portfolio_nine.png"
+    }
+]
+

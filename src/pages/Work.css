@@ -1,0 +1,98 @@
+.work{
+    width: 300vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work_inner{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.portfolio{
+    position: relative;
+    max-width: 400px;
+    border-radius: 30px;
+}
+.portfolio a:hover .portfolio_image,
+.portfolio a:hover .portfolio_text{
+    transition: 0.3s ease-out;
+    box-shadow: 0px 0px 12px 3px rgb(19 22 44);
+}
+.portfolio a:hover .portfolio_image{
+    transform: rotate3d(0, 1, 0, 90deg);
+}
+.portfolio a:hover .portfolio_text{
+    transition: 1s ease;
+    transform: rotate3d(0, 0, 0, 0deg);
+    opacity: 1;
+    visibility: visible;
+}
+.portfolio_image{
+    border-radius: 30px;
+    transition: 0.3s ease-out;
+}
+.portfolio_image img{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.portfolio_text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    color: #fff;
+    background-color: #25283D;
+    border-radius: 30px;
+    transform: rotate3d(0, 1, 0, 180deg);
+    opacity: 0;
+    visibility: hidden;
+}
+.portfolio_mobile_text{
+    padding: 30px;
+    color: #fff;
+    background-color: #25283D;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 12px 3px rgb(19 22 44);
+    margin-top: 20px;
+}
+.portfolio_mobile_text h3{
+    font-size: 16px;
+}
+.portfolio_mobile_text p{
+    font-size: 14px;
+}
+@media screen and (max-width: 1024px){
+    .work_inner{
+        justify-content: flex-start;
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 768px){
+    .work{
+        justify-content: space-between;
+    }
+    .work_inner{
+        padding-bottom: 100px;
+    }
+    .portfolio{
+        min-width: 250px;
+    }
+    .portfolio_image img{
+        height: 200px;
+    }
+}
